@@ -1,0 +1,51 @@
+From 09747c005ffcaebb9afa2ba05edda78ebb72f1c6 Mon Sep 17 00:00:00 2001
+From: hatake0203 <49799789+hatake0203@users.noreply.github.com>
+Date: Sat, 20 Apr 2019 10:25:11 +0900
+Subject: [PATCH] Initial commit
+
+---
+ .gitignore | 32 ++++++++++++++++++++++++++++++++
+ 1 file changed, 32 insertions(+)
+ create mode 100644 .gitignore
+
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+index 0000000..259148f
+--- /dev/null
++++ b/.gitignore
+@@ -0,0 +1,32 @@
++# Prerequisites
++*.d
++
++# Compiled Object files
++*.slo
++*.lo
++*.o
++*.obj
++
++# Precompiled Headers
++*.gch
++*.pch
++
++# Compiled Dynamic libraries
++*.so
++*.dylib
++*.dll
++
++# Fortran module files
++*.mod
++*.smod
++
++# Compiled Static libraries
++*.lai
++*.la
++*.a
++*.lib
++
++# Executables
++*.exe
++*.out
++*.app
+-- 
+2.21.0.windows.1
+
